@@ -22,7 +22,7 @@ ARG hbs=3
 ENV HEARTBEATSTEP $hbs
 
 # information de port réseau utile
-EXPOSE 1234/udp 4321/tcp
+#EXPOSE 1234/udp 4321/tcp
 
 ENTRYPOINT ["/entrypoint.sh"]
 CMD ["battement"]
